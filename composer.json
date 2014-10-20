@@ -1,0 +1,14 @@
+{
+    "name": "Waldema/media",
+    "description": "Multi upload plugin",
+    "require": {
+        "smottt/wideimage": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "waldemarnt",
+            "email": "waldemarnt@gmail.com"
+        }
+    ]
+}
