@@ -1,5 +1,5 @@
 {
-    "name": "Waldema/media",
+    "name": "waldemarnt/media",
     "description": "Multi upload plugin",
     "require": {
         "smottt/wideimage": "dev-master"
