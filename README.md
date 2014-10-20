@@ -7,10 +7,25 @@ Install
 ---------------
 
 install via composer:
+reference: waldemarnt/media
 
 install manual:
+
 copy to app/Plugin folder
 and run composer update comand to download WideImage
+
+create table
+
+CREATE TABLE `media` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `path` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `model_name` varchar(255) NOT NULL,
+  `model_id` int(11) NOT NULL,
+  `size` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+
 
 Using
 --------------
