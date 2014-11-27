@@ -1,6 +1,8 @@
 {
     "name": "waldemarnt/media",
+    "type": "cakephp-plugin",
     "description": "Multi upload plugin",
+    "homepage": "https://github.com/waldemarnt/MediaPlugin",
     "require": {
         "smottt/wideimage": "dev-master"
     },
@@ -10,5 +12,8 @@
             "name": "waldemarnt",
             "email": "waldemarnt@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "installer-name": "MediaPlugin"
+    }
 }
